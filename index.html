@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>MyWebsite</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+  
+  <body>
+    <!-- jumbotron -->
+    <section class="header" id="header">
+      <div class="container">
+
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <h1>Wow..!!!</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            
+              
+                    <!-- <span id="ssnama" style="font-size: 20px; color: yellow;"></span> -->
+                    <span id="snama" style="font-size: 20px; color: yellow;"></span><br>
+                    <input id="nama" type="text" placeholder="Masukan nama anda" required maxlength="30"><br>
+
+                    <!-- <span id="sstgl" style="font-size: 20px; color: yellow;"></span> -->
+                    <span id="stgl" style="font-size: 20px; color: yellow;"></span><br>
+                    <input id="tgl" type="date" placeholder="Masukan tanggal lahir anda" required><br>
+
+                    <!-- <span id="ssgenre" style="font-size: 20px; color: yellow;"></span> -->
+                    <span id="sgenre" style="font-size: 20px; color: yellow;"></span><br>
+                    <input id="genre" type="text" placeholder="Masukan jenis kelamin anda" required><br>
+
+                    
+                  
+              
+
+
+
+              <button class="btn-primary" id="lihat" style="width: 40%; height: 40px;">LIHAT HASIL</button>
+           
+
+          </div>
+        </div>
+
+        <audio id="a1">
+          <source src="audio/button-14.wav" type="audio/wav"/>
+            <source src="audio/button-14.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="a2">
+          <source src="audio/button-09.wav" type="audio/wav"/>
+            <source src="audio/button-09.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="a3">
+          <source src="audio/im.wav" type="audio/wav"/>
+            <source src="audio/im.ogg" type="audio/ogg"/>
+        </audio>
+
+        <audio id="suara1">
+          <source src="audio/tgl.wav" type="audio/wav"/>
+          <source src="audio/tgl.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="suara2">
+          <source src="audio/jenis.wav" type="audio/wav"/>
+          <source src="audio/jenis.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="otak">
+          <source src="audio/otak.wav" type="audio/wav"/>
+          <source src="audio/otak.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="ok">
+          <source src="audio/ok.wav" type="audio/wav"/>
+          <source src="audio/ok.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="coba">
+          <source src="audio/coba.wav" type="audio/wav"/>
+          <source src="audio/coba.ogg" type="audio/ogg"/>
+        </audio>
+
+        <!-- ucapan -->
+        <audio id="isikan">
+          <source src="audio/isikan.wav" type="audio/wav"/>
+          <source src="audio/isikan.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="pagi">
+          <source src="audio/pagi.wav" type="audio/wav"/>
+          <source src="audio/pagi.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="siang">
+          <source src="audio/siang.wav" type="audio/wav"/>
+          <source src="audio/siang.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="sore">
+          <source src="audio/sore.wav" type="audio/wav"/>
+          <source src="audio/sore.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="malam">
+          <source src="audio/malam.wav" type="audio/wav"/>
+          <source src="audio/malam.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="tengah">
+          <source src="audio/tengah.wav" type="audio/wav"/>
+          <source src="audio/tengah.ogg" type="audio/ogg"/>
+        </audio>
+
+        <audio id="mpagi">
+          <source src="audio/mpagi.wav" type="audio/wav"/>
+          <source src="audio/mpagi.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="msiang">
+          <source src="audio/msiang.wav" type="audio/wav"/>
+          <source src="audio/msiang.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="msore">
+          <source src="audio/msore.wav" type="audio/wav"/>
+          <source src="audio/msore.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="petang">
+          <source src="audio/petang.wav" type="audio/wav"/>
+          <source src="audio/petang.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="mtengah">
+          <source src="audio/mtengah.wav" type="audio/wav"/>
+          <source src="audio/mtengah.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="msubuh">
+          <source src="audio/msubuh.wav" type="audio/wav"/>
+          <source src="audio/msubuh.ogg" type="audio/ogg"/>
+        </audio>
+        <!-- ahir ucapan -->
+
+        <!-- audio cowo -->
+        <audio id="c1">
+          <source src="audio/anjing.wav" type="audio/wav"/>
+          <source src="audio/anjing.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="c2">
+          <source src="audio/banci.wav" type="audio/wav"/>
+          <source src="audio/banci.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="c3">
+          <source src="audio/cocol.wav" type="audio/wav"/>
+          <source src="audio/cocol.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="c4">
+          <source src="audio/ganteng.wav" type="audio/wav"/>
+          <source src="audio/ganteng.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="c5">
+          <source src="audio/monyet.wav" type="audio/wav"/>
+          <source src="audio/monyet.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="c6">
+          <source src="audio/keren.wav" type="audio/wav"/>
+          <source src="audio/keren.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="c7">
+          <source src="audio/maho.wav" type="audio/wav"/>
+          <source src="audio/maho.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="c8">
+          <source src="audio/manis.wav" type="audio/wav"/>
+          <source src="audio/manis.ogg" type="audio/ogg"/>
+        </audio>
+        <!-- ahir audio cowo -->
+        <!-- audio cewe -->
+        <audio id="ce1" >
+          <source src="audio/alis.wav" type="audio/wav"/>
+          <source src="audio/alis.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="ce2" >
+          <source src="audio/bidadari.wav" type="audio/wav"/>
+          <source src="audio/bidadari.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="ce3" >
+          <source src="audio/pipi.wav" type="audio/wav"/>
+          <source src="audio/pipi.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="ce4" >
+          <source src="audio/cantik.wav" type="audio/wav"/>
+          <source src="audio/cantik.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="ce5" >
+          <source src="audio/dada.wav" type="audio/wav"/>
+          <source src="audio/dada.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="ce6" >
+          <source src="audio/jelek.wav" type="audio/wav"/>
+          <source src="audio/jelek.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="ce7" >
+          <source src="audio/songong.wav" type="audio/wav"/>
+          <source src="audio/songong.ogg" type="audio/ogg"/>
+        </audio>
+        <audio id="ce8" >
+          <source src="audio/upil.wav" type="audio/wav"/>
+          <source src="audio/upil.ogg" type="audio/ogg"/>
+        </audio>
+        <!-- ahir audio cewe -->
+      </div>
+        
+    </section>
+    <!-- ahir jumbotron -->
+    <!-- awal -->
+    <section class="header2" id="header2">
+      <div class="container text-center">
+
+        <div class="row">
+        <div class="col-sm-12 text-center">
+          <h3 style="font-weight: bold;">Hasil</h3><hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <div id="ramalan"></div>
+        </div>
+      </div>
+
+      <div class="image" id="image"><p class="text-center">Silahkan klik gambar</p></div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <button id="lihatgambar" class="btn-primary">LIHAT</button><br>
+          <button id="ramallagi" class="btn-primary">COBA LAGI</button>
+        </div>
+      </div>
+      
+      </div> 
+    </section>
+    <!-- ahir -->
+    
+   
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/javascript.js"></script>   
+  </body>
+</html>
